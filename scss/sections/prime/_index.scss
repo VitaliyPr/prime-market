@@ -1,0 +1,37 @@
+.prime {
+  background-color: #1e1e1e;
+  padding: 67px 0;
+
+  .container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  &-logo {
+    justify-self: center;
+
+    img {
+      width: 228px;
+      height: auto;
+    }
+  }
+
+  &-description {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+
+    span {
+      color: #35b8ff;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .prime .container {
+    grid-template-columns: 1fr;
+  }
+}

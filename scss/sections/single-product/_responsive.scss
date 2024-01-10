@@ -1,0 +1,176 @@
+@media (max-width: 1600px) {
+  .single-product {
+    margin-top: 205px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .single-product {
+    margin-top: 195px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .single-product {
+    margin-top: 256px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .single-product {
+    &__content {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+    &__text {
+      min-width: unset;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .single-product {
+    margin-top: 301px;
+  }
+}
+
+@media (max-width: 992px) {
+  .single-product {
+    &__head {
+      column-gap: 14px;
+
+      .entry-title {
+        font-size: 15px;
+        margin-bottom: 6px;
+      }
+
+      .product-title {
+        font-size: 15px;
+        margin-bottom: 8px;
+      }
+
+      .product-text {
+        font-size: 12px;
+      }
+
+      .product-icons {
+        gap: 7.5px;
+
+        img {
+          width: 36px;
+        }
+      }
+
+      .product-list,
+      .product-more {
+        display: none;
+      }
+
+      .product-icons {
+        margin-top: 10px;
+      }
+
+      .product-price {
+        margin-bottom: 10px;
+      }
+    }
+
+    &__btns {
+      .btn {
+        font-size: 16px;
+        padding: 5px;
+
+        svg {
+          width: 24px;
+        }
+      }
+
+      .scales,
+      .like {
+        svg {
+          width: 34px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 835px) {
+  .single-product {
+    margin-top: 85px;
+  }
+}
+
+@media (max-width: 630px) {
+  .single-product {
+    &__head {
+      column-gap: 14px;
+
+      .entry-title {
+        font-size: 10px;
+        margin-bottom: 2px;
+      }
+
+      .product-title {
+        font-size: 10px;
+        margin-bottom: 3px;
+      }
+
+      .product-text {
+        font-size: 8px;
+      }
+
+      .product-icons {
+        gap: 7.5px;
+
+        img {
+          width: 24px;
+        }
+      }
+
+      .product-icons {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      .product-price {
+        margin-bottom: 5px;
+      }
+    }
+    &__stars {
+      width: 56.74px;
+      margin-bottom: 3px;
+    }
+
+    &__text {
+      h5,
+      p {
+        font-size: 12px;
+      }
+    }
+
+    &__btns {
+      .btn {
+        font-size: 12.15px;
+        padding: 5px;
+
+        svg {
+          width: 18px;
+        }
+      }
+
+      .scales,
+      .like {
+        svg {
+          width: 27px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 435px) {
+  .single-product {
+    margin-top: 78px;
+  }
+}

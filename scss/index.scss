@@ -1,0 +1,37 @@
+@import '../fonts/index';
+@import './utils/reset';
+@import './utils/variable';
+@import './utils/mixins';
+@import './components/index';
+@import './vendors/index';
+
+* {
+  font-family: Geometria, arial;
+}
+
+.container {
+  max-width: 1620px;
+  width: 95%;
+  margin: 0 auto;
+
+  &-small {
+    max-width: 1542px;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+@import './layout/index';
+@import './sections/index';

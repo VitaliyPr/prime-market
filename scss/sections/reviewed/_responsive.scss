@@ -1,0 +1,19 @@
+@media (max-width: 1650px) {
+  .reviewed {
+    .product {
+      width: 100%;
+
+      &-row {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .reviewed {
+    &-slider {
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,282 @@
+@media (max-width: 1600px) {
+  .page-content {
+    margin-top: 205px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .page-content {
+    margin-top: 195px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .page-content {
+    margin-top: 256px;
+  }
+
+  .product-layout {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .page-content {
+    &__wrap {
+      position: relative;
+    }
+
+    &__sidebar {
+      position: absolute;
+      left: 0;
+      top: 53px;
+      width: unset;
+
+      &.active {
+        .page-content__sidebar-btn {
+          &::after {
+            transform: rotate(180deg);
+          }
+        }
+
+        .page-content__sidebar-content {
+          display: block;
+        }
+      }
+
+      &-btn {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 6px 53.5px 6px 15px;
+        border-radius: 5.016px;
+        border: 0.502px solid #35b8ff;
+
+        span {
+          color: #35b8ff;
+          font-size: 10.032px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 100%;
+          text-transform: uppercase;
+        }
+
+        &::after {
+          content: "";
+          background-image: url("data:image/svg+xml,%3Csvg width='10' height='5' viewBox='0 0 10 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M9.58524 4.04883L5.32143 0.537454L1.05762 4.04883' stroke='%2335B8FF' stroke-width='0.752437' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+          background-repeat: no-repeat;
+          background-position: 0 0;
+          background-size: 100% 100%;
+          width: 8.528px;
+          height: 3.511px;
+          position: absolute;
+          right: 12px;
+          transition: all 0.3s ease 0s;
+        }
+      }
+
+      &-content {
+        display: none;
+        background-color: #fff;
+        padding: 10px;
+
+        .category {
+          border-radius: unset;
+          .title {
+            padding: 0 !important;
+            border: none;
+            span {
+              font-size: 10px;
+            }
+
+            svg {
+              width: 8.5px;
+              height: auto;
+            }
+          }
+          .content {
+            padding: 10px 10px !important;
+            a {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+    &__body-head {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .title {
+        margin-bottom: 10px;
+        font-size: 24px;
+      }
+    }
+  }
+  .filter {
+    align-self: self-end;
+    gap: 10px;
+
+    &__select {
+      &.nice-select {
+        height: 34px;
+        .current {
+          font-size: 12px;
+          line-height: 34px;
+          gap: 7px;
+
+          svg {
+            width: 18px;
+          }
+        }
+
+        .list {
+          li {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    &__btn {
+      width: 34px;
+      height: 34px;
+
+      svg {
+        width: 22px;
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .page-content {
+    margin-top: 301px;
+  }
+}
+
+@media (max-width: 900px) {
+  .page-content {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 835px) {
+  .page-content {
+    margin-top: 85px;
+  }
+}
+
+@media (max-width: 630px) {
+  .page-content {
+    &__wrap {
+      position: relative;
+    }
+
+    &__sidebar {
+      top: 38px;
+
+      &-btn {
+        height: 27px;
+        padding-right: 30px;
+      }
+    }
+    &__body-head {
+      .title {
+        margin-bottom: 10px;
+        font-size: 16.054px;
+      }
+    }
+  }
+  .filter {
+    gap: 7.5px;
+
+    &__select {
+      &.nice-select {
+        height: 27px;
+        border-radius: 5px;
+        .current {
+          font-size: 8.496px;
+          line-height: 27px;
+          gap: 5px;
+
+          svg {
+            width: 13.5px;
+          }
+        }
+
+        .list {
+          li {
+            font-size: 8.496px;
+          }
+        }
+      }
+    }
+
+    &__btn {
+      width: 27px;
+      height: 27px;
+      border-radius: 5px;
+
+      svg {
+        width: 17px;
+      }
+    }
+  }
+  .product-layout {
+    column-gap: 15px;
+    row-gap: 7px;
+
+    .product-head {
+      padding: 6.55px 8px 5.63px;
+      min-height: 107px;
+
+      .head-like {
+        width: 18.727px;
+        height: auto;
+      }
+      .head-stars {
+        width: 49.159px;
+        height: auto;
+      }
+    }
+    .product-title {
+      font-size: 8.919px;
+      margin-bottom: 1.97px;
+    }
+    .product-text {
+      font-size: 6.689px;
+    }
+    .product-row {
+      margin-top: 15px;
+    }
+    .product-price {
+      .price-default {
+        font-size: 8.919px;
+      }
+      .price-discount {
+        font-size: 5.351px;
+      }
+    }
+    .product-basket {
+      display: flex;
+      width: 13.378px;
+      height: auto;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .product-pagination {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 435px) {
+  .page-content {
+    margin-top: 78px;
+  }
+}

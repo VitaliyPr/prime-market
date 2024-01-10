@@ -1,0 +1,10 @@
+.categories {
+  padding: 37px 0 121px;
+
+  &-list {
+    margin-top: 37px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 29px;
+  }
+}

@@ -1,0 +1,31 @@
+@media (max-width: 500px) {
+  .sidebar-group .sidebar {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    &-row {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    &-auth {
+      justify-content: center;
+    }
+
+    &-lang {
+      justify-content: center;
+    }
+
+    &-socials {
+      .socials {
+        &-title {
+          margin-bottom: 14px;
+        }
+
+        &-link img {
+          width: 25px;
+        }
+      }
+    }
+  }
+}

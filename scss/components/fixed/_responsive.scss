@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .fixed {
+    right: 25px;
+    bottom: 15px;
+
+    &-scrollup {
+      margin-bottom: 20px;
+    }
+  }
+}

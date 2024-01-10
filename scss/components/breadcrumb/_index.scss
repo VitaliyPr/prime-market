@@ -1,0 +1,27 @@
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  li {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 134.688%;
+    color: #000;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      color: #000;
+
+      &::after {
+        content: "/";
+        margin-left: 5px;
+      }
+    }
+  }
+}

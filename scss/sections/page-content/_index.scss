@@ -1,0 +1,221 @@
+.page-content {
+  margin-top: 225px;
+  // .page-content__wrap
+  &__wrap {
+    display: flex;
+    column-gap: 30px;
+  }
+  // .page-content__sidebar
+  &__sidebar {
+    width: 31%;
+    padding-top: 15px;
+  }
+  // .page-content__sidebar-btn
+  &__sidebar-btn {
+    display: none;
+  }
+  // .page-content__sidebar-content
+  &__sidebar-content {
+    .category {
+      box-shadow: unset;
+
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        border: 1px solid #1e1e1e;
+        padding: 14px 23px 13px 30px !important;
+
+        span {
+          color: #1e1e1e;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 134.688%;
+          transition: all 0.3s ease 0s;
+        }
+
+        svg {
+          transition: all 0.3s ease 0s;
+        }
+
+        &.active {
+          border-color: #35b8ff;
+
+          span {
+            color: #35b8ff;
+          }
+
+          svg {
+            transform: rotate(180deg);
+            path {
+              stroke: #35b8ff;
+            }
+          }
+        }
+      }
+      .content {
+        padding: 15px 30px 0 !important;
+        a {
+          display: block;
+          color: #1e1e1e;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 134.688%;
+          &:not(:last-child) {
+            margin-bottom: 8px;
+          }
+        }
+      }
+    }
+  }
+  // .page-content__body
+  &__body {
+    width: 100%;
+    padding-bottom: 34px;
+  }
+  // .page-content__body-head
+  &__body-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+}
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  // .filter__select
+  &__select {
+    &.nice-select {
+      border-color: #35b8ff;
+      border-radius: 10px;
+      padding-left: 10px;
+      padding-right: 16px;
+      height: 48px;
+
+      &:hover {
+        border-color: #35b8ff;
+      }
+
+      &::after {
+        display: none;
+      }
+
+      .current {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 9px;
+        color: #35b8ff;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 48px;
+
+        svg {
+          width: 24px;
+          height: auto;
+        }
+      }
+
+      .list {
+        left: unset;
+        right: 0;
+        border-radius: 10px;
+        border: 1px solid #1e1e1e;
+
+        li {
+          color: #1e1e1e;
+          font-family: Geometria;
+          font-size: 15px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 15px;
+          min-height: unset;
+          padding: 11px 60px 11px 21px;
+        }
+      }
+    }
+  }
+  // .filter__btn
+  &__btn {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #35b8ff;
+
+    svg {
+      width: 30px;
+      height: auto;
+    }
+  }
+}
+.product-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 34px;
+  grid-row-gap: 15.84px;
+  margin-bottom: 32px;
+}
+.product-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  // .product-pagination__prev
+  &__prev {
+    margin-right: 7px;
+  }
+  // .product-pagination__arrow
+  &__arrow {
+    display: flex;
+    width: 7px;
+    height: auto;
+  }
+  // .product-pagination__num
+  &__num {
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+    background: #fff;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &.active {
+      background: #35b8ff;
+      color: #fff;
+    }
+  }
+  // .product-pagination__dot
+  &__dot {
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  // .product-pagination__next
+  &__next {
+    margin-left: 7px;
+  }
+}

@@ -1,0 +1,41 @@
+@media (max-width: 650px) {
+  .modals {
+    &-registration {
+      overflow-y: scroll;
+      height: 95%;
+
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: rgba(199, 198, 198, 0.3);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: #35b8ff;
+      }
+
+      .modals-row {
+        grid-template-columns: 1fr;
+      }
+
+      .modals-socials.modals-socials--border:before {
+        width: 100%;
+        height: 1px;
+        top: -18.5px;
+        left: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .modals {
+    &-registration,
+    &-login {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}
