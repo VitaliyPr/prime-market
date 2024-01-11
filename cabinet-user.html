@@ -1,0 +1,2273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.min.css" />
+    <link rel="stylesheet" type="text/css" href="./scss/css/accordion.css" />
+    <link rel="stylesheet" type="text/css" href="./scss/css/nice-select.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-about">
+          <a href="#" class="navbar-link">Доставка та оплата</a>
+          <a href="#" class="navbar-link">Про Нас</a>
+          <a href="#" class="navbar-link">Контакти</a>
+        </div>
+        <a href="#" class="navbar-logo">
+          <img src="./img/logo.png" alt="logo" />
+        </a>
+        <div class="navbar-functionality">
+          <div class="navbar-lang">УКР</div>
+          <a href="tel:+380732888707" class="navbar-phone">+38 073 288 87 07</a>
+          <div class="navbar-icons">
+            <a href="#" class="navbar-liked">
+              <img src="./img/navbar/heart.svg" alt="heart" />
+            </a>
+            <a href="#" class="navbar-basket">
+              <img src="./img/navbar/cart.svg" alt="cart" />
+            </a>
+            <a href="#" class="navbar-user">
+              <img src="./img/navbar/user.svg" alt="user" />
+            </a>
+            <a href="#" class="navbar-truck">
+              <img src="./img/navbar/truck.svg" alt="truck" />
+            </a>
+          </div>
+        </div>
+        <hr class="navbar-line" />
+        <ul class="navbar-links">
+          <li class="dropdown-handler" data-dropdown="catalog-product">
+            <a href="#" class="navbar-link">
+              <img src="./img/navbar/grid.svg" alt="grid" />
+              каталог товарів
+            </a>
+            <div class="navbar-dropdown">
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Блекаут</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Зарядні станції</a>
+                  <a href="#" class="dropdown-link">Генератори</a>
+                  <a href="#" class="dropdown-link">Павербанки</a>
+                  <a href="#" class="dropdown-link">Ліхтарі</a>
+                  <a href="#" class="dropdown-link">Акумулятори та ДБЖ</a>
+                  <a href="#" class="dropdown-link">Кабелі та подовжувачі</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Автомобільні товари</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Відеореєстратори</a>
+                  <a href="#" class="dropdown-link">Автомагнітоли</a>
+                  <a href="#" class="dropdown-link">GPS - Навігатори</a>
+                  <a href="#" class="dropdown-link">Паркувальні системи</a>
+                  <a href="#" class="dropdown-link">Автокомпресори</a>
+                  <a href="#" class="dropdown-link">Автомобільні камери</a>
+                  <a href="#" class="dropdown-link">Автохімія та догляд</a>
+                  <a href="#" class="dropdown-link">Підставки, зарядні пристрої</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Товари для геймерів</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Ігрові гарнітури</a>
+                  <a href="#" class="dropdown-link">Ігрові миші</a>
+                  <a href="#" class="dropdown-link">Ігрові клавіатури</a>
+                  <a href="#" class="dropdown-link">Коврики</a>
+                  <a href="#" class="dropdown-link">Маніпулятори, джойстики</a>
+                  <a href="#" class="dropdown-link">Приставки</a>
+                  <a href="#" class="dropdown-link">Ноутбуки</a>
+                  <a href="#" class="dropdown-link">Крісла та столи</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Гаджети та аксесуари</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Навушники</a>
+                  <a href="#" class="dropdown-link">Смарт годинники</a>
+                  <a href="#" class="dropdown-link">Фітнес-браслети</a>
+                  <a href="#" class="dropdown-link">Кабелі та адаптери</a>
+                  <a href="#" class="dropdown-link">Чохли для телефонів</a>
+                  <a href="#" class="dropdown-link">Чохли для навушників</a>
+                  <a href="#" class="dropdown-link">Ремінці для годинників</a>
+                  <a href="#" class="dropdown-link">Зарядні пристрої та станції</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Товари для кухні</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Для приготування</a>
+                  <a href="#" class="dropdown-link">Сервірування столу</a>
+                  <a href="#" class="dropdown-link">Кухонні аксесуари</a>
+                  <a href="#" class="dropdown-link">Ножі та приладдя</a>
+                  <a href="#" class="dropdown-link">Зберігання та пакування</a>
+                  <a href="#" class="dropdown-link">Текстиль</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Побутова техніка</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Роботи-пилососи</a>
+                  <a href="#" class="dropdown-link">Акумуляторні пилососси</a>
+                  <a href="#" class="dropdown-link">Кавомашини</a>
+                  <a href="#" class="dropdown-link">Грилі та тостери</a>
+                  <a href="#" class="dropdown-link">Електрочайники</a>
+                  <a href="#" class="dropdown-link">Блендери та міксери</a>
+                  <a href="#" class="dropdown-link">Праски та відпарювачі</a>
+                  <a href="#" class="dropdown-link">Зволожувачі повітря</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Краса і здоров’я</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Зубні щітки</a>
+                  <a href="#" class="dropdown-link">Фени та стайлери</a>
+                  <a href="#" class="dropdown-link">Електробритви та тримери</a>
+                  <a href="#" class="dropdown-link">Епілятори</a>
+                  <a href="#" class="dropdown-link">Косметичні дзеркала</a>
+                  <a href="#" class="dropdown-link">Косметичні прилади</a>
+                  <a href="#" class="dropdown-link">Прилади для манікюру</a>
+                  <a href="#" class="dropdown-link">Підлогові ваги</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Товари для військових</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Тактичний одяг</a>
+                  <a href="#" class="dropdown-link">Спорядження</a>
+                  <a href="#" class="dropdown-link">Рації та старлінки</a>
+                  <a href="#" class="dropdown-link">Дрони</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">
+              <img src="./img/navbar/ribbon.svg" alt="ribbon" />
+              Хіти продажу
+            </a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">
+              <img src="./img/navbar/calendar.svg" alt="calendar" />
+              Новинки
+            </a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">
+              <img src="./img/navbar/percentage.svg" alt="percentage" />
+              Акційні пропозиції
+            </a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">
+              <img src="./img/navbar/file.svg" alt="file" />
+              Партнерство
+            </a>
+          </li>
+        </ul>
+        <form class="navbar-search">
+          <img src="./img/navbar/search.svg" alt="search" class="navbar-search__icon" />
+          <input type="text" class="navbar-input" />
+          <button type="submit" class="navbar-btn">пошук</button>
+        </form>
+        <div class="navbar-burger" data-open='{"el":"sidebar","class":"sidebar-group--open"}'>
+          <img src="./img/navbar/burger.svg" alt="burger" />
+        </div>
+      </div>
+    </nav>
+
+    <div class="sidebar-group" data-el="sidebar">
+      <div class="sidebar">
+        <div class="sidebar-head">
+          <a href="#" class="sidebar-logo">
+            <img src="./img/logo.png" alt="logo" />
+          </a>
+          <img
+            src="./img/sidebar/close.svg"
+            alt="close"
+            class="sidebar-close"
+            data-close='{"el":"sidebar","class":"sidebar-group--open"}'
+          />
+        </div>
+        <div class="sidebar-row">
+          <div class="sidebar-auth">
+            <a href="#" class="auth-user">
+              <img src="./img/sidebar/user.svg" alt="user" />
+            </a>
+            <div class="auth-links">
+              <a href="#" class="auth-login" data-open='{"el":"modals","class":"modals-show--login"}'> Вхід </a>
+              <hr class="auth-line" />
+              <a href="#" class="auth-registration" data-open='{"el":"modals","class":"modals-show--registration"}'>
+                Реєстрація
+              </a>
+            </div>
+            <div class="auth-text">
+              <span>Авторизуйтесь для</span>
+              <span>розширення можливостей</span>
+            </div>
+          </div>
+          <div class="sidebar-lang">
+            <a href="#" class="lang-item lang-item--active">УКР</a>
+            <a href="#" class="lang-item">ENG</a>
+          </div>
+        </div>
+        <div class="sidebar-links">
+          <a href="#" class="link-item">
+            <img src="./img/sidebar/catalog.svg" alt="catalog" />
+            <span>Каталог товарів</span>
+          </a>
+          <a href="#" class="link-item">
+            <img src="./img/sidebar/basket.svg" alt="basket" />
+            <span>Кошик</span>
+          </a>
+        </div>
+        <div class="sidebar-list">
+          <div class="list-item">
+            <h5 class="item-title">Інформація</h5>
+            <div class="item-links">
+              <a href="#" class="item-link">про нас</a>
+              <a href="#" class="item-link">Доставка</a>
+              <a href="#" class="item-link">Повернення товару</a>
+              <a href="#" class="item-link">Зворотній звьязок</a>
+              <a href="#" class="item-link">Гарантійні умови</a>
+            </div>
+          </div>
+          <div class="list-item">
+            <h5 class="item-title">Додатково</h5>
+            <div class="item-links">
+              <a href="#" class="item-link">Виробники</a>
+              <a href="#" class="item-link">Подарункові сертифікати</a>
+              <a href="#" class="item-link">Партнерська програма</a>
+              <a href="#" class="item-link">Карта сайту</a>
+              <a href="#" class="item-link">Розсилка</a>
+            </div>
+          </div>
+        </div>
+        <a href="tel:+380732888707" class="sidebar-phone">
+          <span>073 288 87 07</span>
+          Оформити замовлення
+        </a>
+        <ul class="sidebar-working">
+          <li class="working-item">
+            пн-пт
+            <span class="item-blue">9:00 - 20:00</span>
+          </li>
+          <li class="working-item">
+            сб
+            <span class="item-blue">9:00 - 17:00 </span>
+          </li>
+          <li class="working-item">
+            нд
+            <span class="item-blue"> Вихідний</span>
+          </li>
+        </ul>
+        <div class="sidebar-socials">
+          <h5 class="socials-title">Ми в соціальних мережах</h5>
+          <div class="socials-list">
+            <a href="#" class="socials-link">
+              <img src="./img/sidebar/telegram.svg" alt="telegram" />
+            </a>
+            <a href="#" class="socials-link">
+              <img src="./img/sidebar/whatsapp.svg" alt="whatsapp" />
+            </a>
+            <a href="#" class="socials-link">
+              <img src="./img/sidebar/viber.svg" alt="viber" />
+            </a>
+            <a href="#" class="socials-link">
+              <img src="./img/sidebar/x.svg" alt="x" />
+            </a>
+            <a href="#" class="socials-link">
+              <img src="./img/sidebar/instagram.svg" alt="instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar-background" data-close='{"el":"sidebar","class":"sidebar-group--open"}'></div>
+    </div>
+
+    <div class="modals" data-el="modals">
+      <div class="modals-login">
+        <div class="modals-head">
+          <h3 class="head-title">Вхід</h3>
+          <img
+            src="./img/modals/close.svg"
+            alt="close"
+            class="head-close"
+            data-close='{"el":"modals","class":"modals-show--login"}'
+          />
+        </div>
+        <div class="modals-fields">
+          <div class="modals-field">
+            <label for="email" class="field-label">Ел. пошта або телефон</label>
+            <input type="email" id="email" class="field-input" />
+          </div>
+          <div class="modals-field modals-field--password">
+            <label for="password" class="field-label">Пароль</label>
+            <div class="password-wraper">
+              <input type="password" id="password" class="field-input" />
+              <img src="./img/modals/eye.svg" alt="eye" class="password-eye" />
+            </div>
+          </div>
+          <div class="modals-field modals-field--checkbox">
+            <input type="checkbox" id="checkbox" class="field-checkbox" />
+            <label for="checkbox" class="field-label">Запам’ятати мене</label>
+          </div>
+        </div>
+        <div class="modals-btns">
+          <button class="modals-btn modals-btn--blue">Увійти</button>
+          <button class="modals-btn">Зареєструватися</button>
+        </div>
+        <div class="modals-or">
+          <span>або</span>
+        </div>
+        <div class="modals-socials">
+          <h6 class="socials-title">Увійти за допомогою соц. мереж</h6>
+          <div class="modals-btns modals-btns--row">
+            <button class="modals-btn modals-btn--border">
+              <img src="./img/modals/google.svg" alt="google" />
+            </button>
+            <button class="modals-btn modals-btn--border">
+              <img src="./img/modals/facebook.svg" alt="facebook" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modals-registration">
+        <div class="modals-head">
+          <h3 class="head-title">Реєстрація</h3>
+          <img
+            src="./img/modals/close.svg"
+            alt="close"
+            class="head-close"
+            data-close='{"el":"modals","class":"modals-show--registration"}'
+          />
+        </div>
+        <div class="modals-row modals-row--bottom">
+          <div class="modals-fields">
+            <div class="modals-field">
+              <label for="name" class="field-label">Ім’я</label>
+              <input type="text" id="name" class="field-input" />
+            </div>
+            <div class="modals-field">
+              <label for="phone" class="field-label">Номер телефону</label>
+              <input type="text" id="phone" class="field-input" />
+            </div>
+            <div class="modals-field modals-field--password">
+              <label for="registration_password" class="field-label">Придумайте пароль</label>
+              <div class="password-wraper">
+                <input type="password" id="registration_password" class="field-input" />
+                <img src="./img/modals/eye.svg" alt="eye" class="password-eye" />
+              </div>
+            </div>
+          </div>
+
+          <div class="modals-fields">
+            <div class="modals-field">
+              <label for="surname" class="field-label">Прізвище</label>
+              <input type="text" id="surname" class="field-input" />
+            </div>
+            <div class="modals-field">
+              <label for="registration_email" class="field-label">Ел. пошта</label>
+              <input type="text" id="registration_email" class="field-input" />
+            </div>
+            <div class="modals-field modals-field--password">
+              <label for="repeat_password" class="field-label">Повторіть пароль</label>
+              <div class="password-wraper">
+                <input type="password" id="repeat_password" class="field-input" />
+                <img src="./img/modals/eye.svg" alt="eye" class="password-eye" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modals-row">
+          <div class="modals-btns">
+            <h6 class="btns-title">Закінчити реєстрацію</h6>
+            <button class="modals-btn modals-btn--blue">Зареєструватися</button>
+            <button class="modals-btn">Увійти</button>
+          </div>
+          <div class="modals-socials modals-socials--border">
+            <h6 class="socials-title">Увійти за допомогою соц. мереж</h6>
+            <div class="modals-btns">
+              <button class="modals-btn modals-btn--border">
+                <img src="./img/modals/google.svg" alt="google" />
+              </button>
+              <button class="modals-btn modals-btn--border">
+                <img src="./img/modals/facebook.svg" alt="facebook" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modals-background" data-close='{"el":"modals","mainClass":"modals"}'></div>
+    </div>
+
+    <div class="fixed" data-fixed>
+      <div class="fixed-scrollup" data-scrollup>
+        <img src="./img/fixed/arrow-up.svg" alt="arrow up" />
+      </div>
+      <div class="fixed-chat">
+        <img src="./img/fixed/chat.svg" alt="chat" />
+      </div>
+    </div>
+
+    <main>
+      <section class="cabinet">
+        <div class="container">
+          <div class="cabinet__wrap">
+            <div class="cabinet__menu">
+              <div class="cabinet__link cabinet__link--active">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle
+                    cx="15"
+                    cy="9.375"
+                    r="3.75"
+                    stroke="#1E1E1E"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M24.375 25.625C23.7808 13.9583 6.21922 13.9583 5.625 25.625"
+                    stroke="#1E1E1E"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p>
+                  User
+                  <span>user@mail.com</span>
+                </p>
+                <button class="cabinet__link-out">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M13.4958 21H6.5C5.39543 21 4.5 19.8487 4.5 18.4286V5.57143C4.5 4.15127 5.39543 3 6.5 3H13.5"
+                      stroke="#1E1E1E"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M16 15.5L19.5 12L16 8.5"
+                      stroke="#1E1E1E"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M9.5 11.9958H19.5"
+                      stroke="#1E1E1E"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="cabinet__link">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M11.5086 20.5682C11.5086 22.3255 10.1192 23.75 8.40517 23.75C6.69119 23.75 5.30172 22.3255 5.30172 20.5682M11.5086 20.5682C11.5086 18.8109 10.1192 17.3864 8.40517 17.3864C6.69119 17.3864 5.30172 18.8109 5.30172 20.5682M11.5086 20.5682H18.4914M5.30172 20.5682H3.75V7.5C3.75 6.80964 4.30964 6.25 5 6.25H17.2414C17.9317 6.25 18.4914 6.80964 18.4914 7.5V10.2273M25.4741 20.5682C25.4741 22.3255 24.0847 23.75 22.3707 23.75C20.6567 23.75 19.2672 22.3255 19.2672 20.5682M25.4741 20.5682C25.4741 18.8109 24.0847 17.3864 22.3707 17.3864C20.6567 17.3864 19.2672 18.8109 19.2672 20.5682M25.4741 20.5682H26.25V14.2045L23.1065 10.9817C22.636 10.4993 21.9907 10.2273 21.3168 10.2273H18.4914M19.2672 20.5682H18.4914M18.4914 20.5682V10.2273"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p>Мої замовлення</p>
+              </div>
+              <div class="cabinet__link">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M9.6875 4.375C6.40831 4.375 3.75 7.19945 3.75 10.6836C3.75 17.6562 15 25.625 15 25.625C15 25.625 26.25 17.6562 26.25 10.6836C26.25 6.36719 23.5917 4.375 20.3125 4.375C17.9875 4.375 15.9746 5.79491 15 7.86312C14.0254 5.79491 12.0125 4.375 9.6875 4.375Z"
+                    stroke="#1E1E1E"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                <p>Список бажань</p>
+              </div>
+              <div class="cabinet__link">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M3.18701 16.757C2.84725 16.2908 2.67737 16.0577 2.56044 15.6067C2.47985 15.2959 2.47985 14.7041 2.56044 14.3933C2.67737 13.9423 2.84725 13.7092 3.18701 13.243C5.04878 10.6884 9.12827 6.25 15 6.25C20.8717 6.25 24.9512 10.6884 26.813 13.243C27.1527 13.7092 27.3226 13.9423 27.4396 14.3933C27.5201 14.7041 27.5201 15.2959 27.4396 15.6067C27.3226 16.0577 27.1527 16.2908 26.813 16.757C24.9512 19.3117 20.8717 23.75 15 23.75C9.12827 23.75 5.04878 19.3116 3.18701 16.757Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M15 17.5C16.3807 17.5 17.5 16.3807 17.5 15C17.5 13.6193 16.3807 12.5 15 12.5C13.6193 12.5 12.5 13.6193 12.5 15C12.5 16.3807 13.6193 17.5 15 17.5Z"
+                    stroke="black"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+
+                <p>Переглянуті товари</p>
+              </div>
+            </div>
+            <div class="cabinet__body">
+              <div class="cabinet__content cabinet__content--active cabinet__content-data">
+                <div class="cabinet__group">
+                  <div class="cabinet-content__head">
+                    <h2 class="title">Особисті дані</h2>
+                  </div>
+                  <div class="cabinet__row">
+                    <div class="cabinet__info">
+                      <div class="cabinet-info__row">
+                        <div class="cabinet-info__group">
+                          <div class="cabinet-info__item">
+                            <p>Прізвище</p>
+                            <h5>Не вказано</h5>
+                          </div>
+                          <div class="cabinet-info__item">
+                            <p>Ім’я</p>
+                            <h5>User</h5>
+                          </div>
+                          <div class="cabinet-info__item">
+                            <p>По батькові</p>
+                            <h5>Не вказано</h5>
+                          </div>
+                          <div class="cabinet-info__item">
+                            <p>Стать</p>
+                            <h5>Чоловіча</h5>
+                          </div>
+                          <div class="cabinet-info__item">
+                            <p>Дата народження</p>
+                            <h5>11 вересня 1999</h5>
+                          </div>
+                        </div>
+                        <div class="cabinet-info__btn">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 7.86022C21 7.42927 20.9439 7.01143 20.8386 6.61359C20.7465 6.26546 20.3171 6.18232 20.0625 6.43696L18.3398 8.15964C17.6496 8.84983 16.5306 8.84983 15.8404 8.15964C15.1502 7.46944 15.1502 6.35042 15.8404 5.66022L17.563 3.93754C17.8177 3.68291 17.7345 3.25347 17.3864 3.16136C16.9886 3.05609 16.5707 3 16.1398 3C13.4556 3 11.2796 5.17599 11.2796 7.86022C11.2796 8.43106 11.378 8.97891 11.5588 9.48774C11.6294 9.68651 11.5895 9.91108 11.4404 10.0602L3.29979 18.2008C2.90007 18.6005 2.90007 19.2486 3.29979 19.6483L4.35168 20.7002C4.7514 21.0999 5.39948 21.0999 5.7992 20.7002L13.9398 12.5597C14.0889 12.4105 14.3135 12.3706 14.5123 12.4412C15.0211 12.622 15.5689 12.7204 16.1398 12.7204C18.824 12.7204 21 10.5444 21 7.86022Z" stroke="#35B8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          <span>Редагувати</span>
+                        </div>
+                      </div>
+                    </div>
+                    <form action="#" class="cabinet__form">
+                      <div class="cabinet-form__row">
+                        <div class="modals-field">
+                          <label for="surname" class="field-label">Прізвище</label>
+                          <input type="text" id="surname" class="field-input" placeholder="Не вказано"/>
+                        </div>
+                        <div class="modals-field">
+                          <label for="name" class="field-label">Ім’я</label>
+                          <input type="text" id="name" class="field-input" placeholder="User"/>
+                        </div>
+                        <div class="modals-field">
+                          <label for="fathername" class="field-label">По батькові</label>
+                          <input type="text" id="fathername" class="field-input" placeholder="Не вказано"/>
+                        </div>
+                      </div>
+                      <div class="cabinet-form__row">
+                        <div class="modals-field">
+                          <label for="date" class="field-label">Дата народження</label>
+                          <input type="date" id="date" class="field-input" />
+                        </div>
+                        <div class="modals-field">
+                          <label for="gander" class="field-label">Стать</label>
+                          <select name="gander" id="gander" class="field-input">
+                            <option value="" selected disabled hidden>Не вказано</option>
+                            <option value="1">Чоловіча</option>
+                            <option value="2">Жіноча</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="cabinet-form__btns">
+                        <button type="submit" class="cabinet-form__btn cabinet-form__btn--blue">Зберегти</button>
+                        <div class="cabinet-form__btn cabinet-form__btn--border close-edit">Скасувати</div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="cabinet__group">
+                  <div class="cabinet-content__head">
+                    <h2 class="title">Контакти</h2>
+                  </div>
+                  <div class="cabinet__row">
+                    <div class="cabinet__info">
+                      <div class="cabinet-info__row">
+                        <div class="cabinet-info__group">
+                          <div class="cabinet-info__item">
+                            <p>Електронна пошта</p>
+                            <h5>user@mail.com</h5>
+                          </div>
+                          <div class="cabinet-info__item">
+                            <p>Телефон</p>
+                            <h5>+380 123 45 67</h5>
+                          </div>
+                        </div>
+                        <div class="cabinet-info__btn">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 7.86022C21 7.42927 20.9439 7.01143 20.8386 6.61359C20.7465 6.26546 20.3171 6.18232 20.0625 6.43696L18.3398 8.15964C17.6496 8.84983 16.5306 8.84983 15.8404 8.15964C15.1502 7.46944 15.1502 6.35042 15.8404 5.66022L17.563 3.93754C17.8177 3.68291 17.7345 3.25347 17.3864 3.16136C16.9886 3.05609 16.5707 3 16.1398 3C13.4556 3 11.2796 5.17599 11.2796 7.86022C11.2796 8.43106 11.378 8.97891 11.5588 9.48774C11.6294 9.68651 11.5895 9.91108 11.4404 10.0602L3.29979 18.2008C2.90007 18.6005 2.90007 19.2486 3.29979 19.6483L4.35168 20.7002C4.7514 21.0999 5.39948 21.0999 5.7992 20.7002L13.9398 12.5597C14.0889 12.4105 14.3135 12.3706 14.5123 12.4412C15.0211 12.622 15.5689 12.7204 16.1398 12.7204C18.824 12.7204 21 10.5444 21 7.86022Z" stroke="#35B8FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          <span>Редагувати</span>
+                        </div>
+                      </div>
+                    </div>
+                    <form action="#" class="cabinet__form">
+                      <div class="cabinet-form__row">
+                        <div class="modals-field">
+                          <label for="email" class="field-label">Електронна пошта</label>
+                          <input type="email" id="email" class="field-input" placeholder="user@mail.com"/>
+                        </div>
+                        <div class="modals-field">
+                          <label for="tel" class="field-label">Телефон</label>
+                          <input type="tel" id="tel" class="field-input" placeholder="+3801234567"/>
+                        </div>
+                      </div>
+                      <div class="cabinet-form__btns">
+                        <button type="submit" class="cabinet-form__btn cabinet-form__btn--blue">Зберегти</button>
+                        <div class="cabinet-form__btn cabinet-form__btn--border close-edit">Скасувати</div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="cabinet__group">
+                  <div class="cabinet-content__head">
+                    <h2 class="title">Мій гаманець</h2>
+                  </div>
+                  <div class="payment-card__layout">
+                    <div class="payment-card">
+                      <div class="payment-card__top">
+                        <div class="payment-card__head">
+                          <h5>Моя картка</h5>
+                          <div class="payment-card__num">
+                            ХХХХ  ХХХХ  ХХХХ  1234
+                          </div>
+                        </div>
+                        <div class="payment-card__delete">
+                          <svg width="15" height="16" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.00684 6.021L4.67917 12.7443H10.0579L10.7302 6.021" stroke="#1E1E1E" stroke-width="0.88244" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25098 10.097V7.15552" stroke="#1E1E1E" stroke-width="0.88244" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6.48535 10.097V7.15552" stroke="#1E1E1E" stroke-width="0.88244" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2.99805 4.67646H5.68739M5.68739 4.67646L5.91215 3.7774C5.97762 3.51551 6.21293 3.33179 6.48288 3.33179H8.25357C8.52352 3.33179 8.75883 3.51551 8.8243 3.7774L9.04906 4.67646M5.68739 4.67646H9.04906M9.04906 4.67646H11.7384" stroke="#1E1E1E" stroke-width="0.88244" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                            
+                        </div>
+                      </div>
+                      <div class="payment-card__bottom">
+                        <h5>Основна</h5>
+                        <div class="payment-card__type">
+                          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19.8054 13.7438L17.1331 26.2375H13.9007L16.5733 13.7438H19.8054ZM33.4037 21.8111L35.1049 17.1195L36.0839 21.8111H33.4037ZM37.0112 26.2375H40L37.3889 13.7438H34.632C34.0107 13.7438 33.4869 14.104 33.2551 14.6596L28.4052 26.2375H31.7998L32.4736 24.3716H36.6198L37.0112 26.2375ZM28.5736 22.1587C28.5876 18.8614 24.0154 18.6788 24.046 17.2055C24.0559 16.7578 24.483 16.281 25.4165 16.159C25.8793 16.0995 27.1565 16.0511 28.6042 16.7182L29.1704 14.0678C28.3929 13.7865 27.3922 13.5156 26.1471 13.5156C22.9518 13.5156 20.7041 15.2129 20.6861 17.6453C20.6656 19.444 22.2917 20.4469 23.5144 21.046C24.775 21.6583 25.1973 22.0508 25.1911 22.5979C25.1824 23.4362 24.186 23.8074 23.2581 23.8214C21.6322 23.8467 20.6897 23.3819 19.9386 23.0318L19.3519 25.7707C20.1083 26.1169 21.5021 26.4182 22.9453 26.4336C26.3424 26.4336 28.5634 24.7563 28.5736 22.1587ZM15.1868 13.7438L9.94977 26.2375H6.53361L3.95625 16.2666C3.80001 15.6535 3.66372 15.4281 3.18855 15.169C2.41129 14.747 1.12823 14.3522 0 14.1066L0.0764338 13.7438H5.57623C6.27678 13.7438 6.90707 14.21 7.06752 15.017L8.42898 22.2472L11.7912 13.7438H15.1868Z" fill="#1434CB"/>
+                          </svg>                                                       
+                        </div>
+                      </div>
+                    </div>
+                    <form action="#" class="payment-card payment-card__add">
+                      <div class="payment-card__row">
+                        <div class="payment-card__field">
+                          <label for="number" class="payment-card__label">Номер картки</label>
+                          <input type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" 
+                          autocomplete="cc-number" maxlength="19" 
+                          placeholder="ХХХХ  ХХХХ  ХХХХ  ХХХХ" class="payment-card__input">
+                        </div>
+                      </div>
+                      <div class="payment-card__row">
+                        <div class="payment-card__field">
+                          <label class="payment-card__label">Термін дії</label>
+                          <div class="payment-card__date">
+                            <input class="payment-card__input" placeholder="ММ" type="text" maxlength="2"/>
+                            <span>/</span>
+                            <input class="payment-card__input" placeholder="РР" type="text" maxlength="2"/>
+                          </div>
+                        </div>
+                        <div class="payment-card__field">
+                          <label for="cvv" class="payment-card__label">CVV</label>
+                          <input name="cvv" class="payment-card__input payment-card__input--cvv" placeholder="***" type="text" maxlength="3"/>
+                        </div>
+                      </div>
+                      <button type="submit" class="payment-card__btn">Додати</button>
+                    </form>
+                    <div class="payment-card__plus">
+                      <svg width="170" height="102" viewBox="0 0 170 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M84.7321 42.332L84.7321 50.5865M84.7321 50.5865L84.7321 58.8411M84.7321 50.5865L76.4775 50.5865M84.7321 50.5865L92.9866 50.5865" stroke="#1E1E1E" stroke-width="0.88244" stroke-linecap="round" stroke-linejoin="round"/>
+                        <rect x="0.294147" y="0.305621" width="168.84" height="100.598" rx="5.58878" stroke="#1E1E1E" stroke-width="0.588293"/>
+                      </svg>                        
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="cabinet__content">
+                <div class="cabinet-content__head">
+                  <h2 class="title title--f0">Мої замовлення</h2>
+                  <div class="cabinet-content-head__row">
+                    <form class="navbar-search">
+                      <img src="./img/navbar/search-dark.svg" alt="search" class="navbar-search__icon" />
+                      <input type="text" class="navbar-input" />
+                      <button type="submit" class="navbar-btn">пошук</button>
+                    </form>
+                    <div class="filter">
+                      <div class="nice-select filter__select" tabindex="0">
+                        <span class="current"
+                          ><svg
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M7.5 17.5V6.5M7.5 6.5L11 10M7.5 6.5L4 10"
+                              stroke="#35B8FF"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M16.5 6.5V17.5M16.5 17.5L20 14M16.5 17.5L13 14"
+                              stroke="#35B8FF"
+                              stroke-width="1.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          Фільтр</span
+                        >
+                        <ul class="list">
+                          <li data-value="1" class="option">За весь час</li>
+                          <li data-value="2" class="option">За останні 30 днів</li>
+                          <li data-value="3" class="option">За останні 6 місяців</li>
+                          <li data-value="4" class="option">За останній рік</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="agreement__layout">
+                  <div class="agreement">
+                    <div class="agreement__picture">
+                      <img src="./img/new-items/product.jpg" alt="product" loading="lazy" />
+                    </div>
+                    <div class="agreement__col">
+                      <h5>Замовлення №</h5>
+                      <p>№ 123 458</p>
+                    </div>
+                    <div class="agreement__col">
+                      <h5>Дата замовлення</h5>
+                      <p>03.01.24</p>
+                    </div>
+                    <div class="agreement__col">
+                      <h5>Сума замовлення</h5>
+                      <p>999 ₴</p>
+                    </div>
+                  </div>
+                  <div class="agreement">
+                    <div class="agreement__picture">
+                      <img src="./img/new-items/product.jpg" alt="product" loading="lazy" />
+                    </div>
+                    <div class="agreement__col">
+                      <h5>Замовлення №</h5>
+                      <p>№ 123 458</p>
+                    </div>
+                    <div class="agreement__col">
+                      <h5>Дата замовлення</h5>
+                      <p>03.01.24</p>
+                    </div>
+                    <div class="agreement__col">
+                      <h5>Сума замовлення</h5>
+                      <p>999 ₴</p>
+                    </div>
+                  </div>
+                  <div class="agreement">
+                    <div class="agreement__picture">
+                      <img src="./img/new-items/product.jpg" alt="product" loading="lazy" />
+                    </div>
+                    <div class="agreement__col">
+                      <h5>Замовлення №</h5>
+                      <p>№ 123 458</p>
+                    </div>
+                    <div class="agreement__col">
+                      <h5>Дата замовлення</h5>
+                      <p>03.01.24</p>
+                    </div>
+                    <div class="agreement__col">
+                      <h5>Сума замовлення</h5>
+                      <p>999 ₴</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-pagination">
+                  <a href="#" class="product-pagination__prev product-pagination__arrow"
+                    ><svg width="9" height="19" viewBox="0 0 9 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8 1L1 9.5L8 18"
+                        stroke="#35B8FF"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#" class="product-pagination__num active">1</a>
+                  <a href="#" class="product-pagination__num">2</a>
+                  <a href="#" class="product-pagination__num">3</a>
+                  <a href="#" class="product-pagination__num">4</a>
+                  <a href="#" class="product-pagination__num">5</a>
+                  <p class="product-pagination__dot">..</p>
+                  <a href="#" class="product-pagination__num">14</a>
+                  <a href="#" class="product-pagination__next product-pagination__arrow">
+                    <svg width="9" height="19" viewBox="0 0 9 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M1 18L8 9.5L1 1"
+                        stroke="#35B8FF"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="cabinet__content">
+                <div class="cabinet-content__head">
+                  <h2 class="title">Список бажань</h2>
+                  <div class="filter">
+                    <div class="nice-select filter__select" tabindex="0">
+                      <span class="current"
+                        ><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M7.5 17.5V6.5M7.5 6.5L11 10M7.5 6.5L4 10"
+                            stroke="#35B8FF"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                          <path
+                            d="M16.5 6.5V17.5M16.5 17.5L20 14M16.5 17.5L13 14"
+                            stroke="#35B8FF"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                        Фільтр</span
+                      >
+                      <ul class="list">
+                        <li data-value="1" class="option">Від дешевих</li>
+                        <li data-value="2" class="option">Від дорогих</li>
+                        <li data-value="3" class="option">За датою</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-layout">
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-pagination">
+                  <a href="#" class="product-pagination__prev product-pagination__arrow"
+                    ><svg width="9" height="19" viewBox="0 0 9 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8 1L1 9.5L8 18"
+                        stroke="#35B8FF"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#" class="product-pagination__num active">1</a>
+                  <a href="#" class="product-pagination__num">2</a>
+                  <a href="#" class="product-pagination__num">3</a>
+                  <a href="#" class="product-pagination__num">4</a>
+                  <a href="#" class="product-pagination__num">5</a>
+                  <p class="product-pagination__dot">..</p>
+                  <a href="#" class="product-pagination__num">14</a>
+                  <a href="#" class="product-pagination__next product-pagination__arrow">
+                    <svg width="9" height="19" viewBox="0 0 9 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M1 18L8 9.5L1 1"
+                        stroke="#35B8FF"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="cabinet__content">
+                <div class="cabinet-content__head">
+                  <h2 class="title">Переглянуті товари</h2>
+                  <div class="filter">
+                    <button class="delete">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path
+                          d="M6.28613 8.57153L7.42899 20.0001H16.5718L17.7147 8.57153"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M13.5 15.5V10.5"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M10.5 15.5V10.5"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                        <path
+                          d="M4.57129 6.28571H9.14272M9.14272 6.28571L9.52478 4.75746C9.63607 4.3123 10.0361 4 10.4949 4H13.5048C13.9637 4 14.3636 4.3123 14.4749 4.75746L14.857 6.28571M9.14272 6.28571H14.857M14.857 6.28571H19.4284"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <span>Видалити</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="product-layout">
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.0957C8.72022 6.0957 5.12891 9.91147 5.12891 14.6185C5.12891 24.0383 20.3274 34.8039 20.3274 34.8039C20.3274 34.8039 35.5258 24.0383 35.5258 14.6185C35.5258 8.7871 31.9345 6.0957 27.5044 6.0957C24.3634 6.0957 21.644 8.01397 20.3274 10.8081C19.0108 8.01397 16.2914 6.0957 13.1503 6.0957Z"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.0957C8.72022 6.0957 5.12891 9.91147 5.12891 14.6185C5.12891 24.0383 20.3274 34.8039 20.3274 34.8039C20.3274 34.8039 35.5258 24.0383 35.5258 14.6185C35.5258 8.7871 31.9345 6.0957 27.5044 6.0957C24.3634 6.0957 21.644 8.01397 20.3274 10.8081C19.0108 8.01397 16.2914 6.0957 13.1503 6.0957Z"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.0957C8.72022 6.0957 5.12891 9.91147 5.12891 14.6185C5.12891 24.0383 20.3274 34.8039 20.3274 34.8039C20.3274 34.8039 35.5258 24.0383 35.5258 14.6185C35.5258 8.7871 31.9345 6.0957 27.5044 6.0957C24.3634 6.0957 21.644 8.01397 20.3274 10.8081C19.0108 8.01397 16.2914 6.0957 13.1503 6.0957Z"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.09534C8.72022 6.09534 5.12891 9.9111 5.12891 14.6181C5.12891 24.038 20.3274 34.8036 20.3274 34.8036C20.3274 34.8036 35.5258 24.038 35.5258 14.6181C35.5258 8.78673 31.9345 6.09534 27.5044 6.09534C24.3634 6.09534 21.644 8.01361 20.3274 10.8077C19.0108 8.01361 16.2914 6.09534 13.1503 6.09534Z"
+                          fill="#35B8FF"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product">
+                    <div class="product-head" style="background-image: url('./img/new-items/product.jpg')">
+                      <svg
+                        class="head-like"
+                        width="41"
+                        height="41"
+                        viewBox="0 0 41 41"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.1503 6.0957C8.72022 6.0957 5.12891 9.91147 5.12891 14.6185C5.12891 24.0383 20.3274 34.8039 20.3274 34.8039C20.3274 34.8039 35.5258 24.0383 35.5258 14.6185C35.5258 8.7871 31.9345 6.0957 27.5044 6.0957C24.3634 6.0957 21.644 8.01397 20.3274 10.8081C19.0108 8.01397 16.2914 6.0957 13.1503 6.0957Z"
+                          stroke="#35B8FF"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <svg
+                        class="head-stars"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="111"
+                        height="18"
+                        viewBox="0 0 111 18"
+                        fill="none"
+                      >
+                        <path
+                          d="M8.92417 0L10.9278 6.16645L17.4116 6.16645L12.1661 9.97753L14.1697 16.144L8.92417 12.3329L3.67868 16.144L5.68228 9.97753L0.43678 6.16645L6.92057 6.16645L8.92417 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M32.0218 0L34.0254 6.16645L40.5092 6.16645L35.2637 9.97753L37.2673 16.144L32.0218 12.3329L26.7763 16.144L28.7799 9.97753L23.5344 6.16645L30.0182 6.16645L32.0218 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M55.1195 0L57.1231 6.16645L63.6069 6.16645L58.3614 9.97753L60.365 16.144L55.1195 12.3329L49.874 16.144L51.8776 9.97753L46.6321 6.16645L53.1159 6.16645L55.1195 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M78.2181 0L80.2217 6.16645L86.7055 6.16645L81.46 9.97753L83.4636 16.144L78.2181 12.3329L72.9726 16.144L74.9762 9.97753L69.7307 6.16645L76.2145 6.16645L78.2181 0Z"
+                          fill="#F7C242"
+                        ></path>
+                        <path
+                          d="M101.316 0L103.319 6.16645L109.803 6.16645L104.558 9.97753L106.561 16.144L101.316 12.3329L96.0703 16.144L98.0739 9.97753L92.8284 6.16645L99.3122 6.16645L101.316 0Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="product-content">
+                      <h4 class="product-title">HUAWEI Vision S</h4>
+                      <p class="product-text">
+                        Мільярд відтінків кольору завдяки технології квантових точок 100% колірний об'єм завдяки
+                        технології квантових точок
+                      </p>
+                      <div class="product-row">
+                        <div class="product-price">
+                          <span class="price-default">19 999 ₴</span>
+                          <span class="price-discount">25 999 ₴</span>
+                        </div>
+                        <div class="product-basket">
+                          <img src="./img/new-items/basket.svg" alt="basket" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="product-pagination">
+                  <a href="#" class="product-pagination__prev product-pagination__arrow"
+                    ><svg width="9" height="19" viewBox="0 0 9 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M8 1L1 9.5L8 18"
+                        stroke="#35B8FF"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                  <a href="#" class="product-pagination__num active">1</a>
+                  <a href="#" class="product-pagination__num">2</a>
+                  <a href="#" class="product-pagination__num">3</a>
+                  <a href="#" class="product-pagination__num">4</a>
+                  <a href="#" class="product-pagination__num">5</a>
+                  <p class="product-pagination__dot">..</p>
+                  <a href="#" class="product-pagination__num">14</a>
+                  <a href="#" class="product-pagination__next product-pagination__arrow">
+                    <svg width="9" height="19" viewBox="0 0 9 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M1 18L8 9.5L1 1"
+                        stroke="#35B8FF"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container-small">
+        <div class="footer-navigations">
+          <div class="footer-navigation">
+            <h4 class="footer-title">Контакти</h4>
+            <a href="tel:0732888707" class="footer-phone">
+              <span>073 288 87 07</span>
+              Оформити замовлення
+            </a>
+            <ul class="footer-workings">
+              <li class="footer-working">
+                <span>пн-пт </span>
+                <span class="footer-working__blue">9:00 - 20:00</span>
+              </li>
+              <li class="footer-working">
+                <span>сб</span>
+                <span class="footer-working__blue">9:00 - 17:00</span>
+              </li>
+              <li class="footer-working">
+                <span>нд</span>
+                <span class="footer-working__blue">Вихідний</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-navigation">
+            <h4 class="footer-title">Інформація</h4>
+            <div class="footer-links">
+              <a href="#">про нас</a>
+              <a href="#">Доставка</a>
+              <a href="#">Повернення товару</a>
+              <a href="#">Зворотній звьязок</a>
+              <a href="#">Гарантійні умови</a>
+            </div>
+          </div>
+
+          <div class="footer-navigation">
+            <h4 class="footer-title">Додатково</h4>
+            <div class="footer-links">
+              <a href="#">Виробники</a>
+              <a href="#">Подарункові сертифікати</a>
+              <a href="#">Партнерська програма</a>
+              <a href="#">Карта сайту</a>
+              <a href="#">Розсилка</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-socials">
+            <a href="#">
+              <img src="./img/footer/facebook.svg" alt="facebook" />
+            </a>
+            <a href="#">
+              <img src="./img/footer/x.svg" alt="x" />
+            </a>
+            <a href="#">
+              <img src="./img/footer/instagram.svg" alt="instagram" />
+            </a>
+          </div>
+          <div class="footer-pay">
+            <a href="#">
+              <img src="./img/footer/google-pay.svg" alt="google pay" />
+            </a>
+            <a href="#">
+              <img src="./img/footer/apple-pay.svg" alt="apple pay" />
+            </a>
+            <a href="#">
+              <img src="./img/footer/visa.svg" alt="visa" />
+            </a>
+            <a href="#">
+              <img src="./img/footer/mastercard.svg" alt="mastercard" />
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-copy">© Інтернет-магазин Prime Market 2023</div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/jquery.nice-select.min.js"></script>
+    <script type="text/javascript" src="./js/accordion.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>

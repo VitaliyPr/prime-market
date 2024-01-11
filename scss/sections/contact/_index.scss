@@ -1,0 +1,136 @@
+.contact {
+  margin-top: 225px;
+  background-image: url(../img/subscribe/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  // .contact__wrap
+  &__wrap {
+    max-width: 1239px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 28px 105px 28px;
+    display: flex;
+    column-gap: 120px;
+  }
+  // .contact__info
+  &__info {
+    position: relative;
+    width: 292px;
+    flex-shrink: 0;
+
+    .title {
+      &:not(:last-child) {
+        margin-bottom: 52px;
+      }
+    }
+
+    &::after {
+      content: "";
+      width: 1px;
+      height: 100%;
+      background-color: #35b8ff;
+      position: absolute;
+      right: -60px;
+      top: 0;
+    }
+  }
+  // .contact__form
+  &__form {
+    width: 100%;
+
+    .title {
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+.contact-phone {
+  display: grid;
+  margin-bottom: 15px;
+  color: #1e1e1e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+
+  span {
+    color: #35b8ff;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 100%;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+}
+.contact-working {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+.working-item {
+  display: flex;
+  justify-content: space-between;
+  color: #1e1e1e;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 100%;
+}
+.item-blue {
+  color: #35b8ff;
+  font-weight: 500;
+}
+.contact-socials {
+}
+.contact-title {
+  color: #1e1e1e;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  margin-bottom: 15px;
+}
+.contact-list {
+  display: flex;
+  gap: 15px;
+}
+.contact-link {
+  display: flex;
+  img {
+    width: 30px;
+    height: auto;
+  }
+}
+
+.form {
+  .modals-row {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+    .modals-field {
+      &:not(:last-child) {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .modals-field {
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+  textarea.field-input {
+    height: 150px;
+    resize: none;
+  }
+  .modals-btn {
+    width: 150px;
+    font-weight: 500;
+  }
+  .modals-btn--border {
+    color: #35b8ff;
+    border-color: #35b8ff;
+  }
+}

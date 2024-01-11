@@ -163,6 +163,29 @@
       height: auto;
     }
   }
+
+  .delete {
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #35b8ff;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 8px 14px;
+
+    svg {
+      width: 24px;
+      height: auto;
+    }
+
+    span {
+      color: #35b8ff;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%;
+    }
+  }
 }
 .product-layout {
   display: grid;

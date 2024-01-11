@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/index.min.css" />
+    <link rel="stylesheet" type="text/css" href="./scss/css/accordion.css" />
+    <link rel="stylesheet" type="text/css" href="./scss/css/nice-select.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-about">
+          <a href="#" class="navbar-link">Доставка та оплата</a>
+          <a href="#" class="navbar-link">Про Нас</a>
+          <a href="#" class="navbar-link">Контакти</a>
+        </div>
+        <a href="#" class="navbar-logo">
+          <img src="./img/logo.png" alt="logo" />
+        </a>
+        <div class="navbar-functionality">
+          <div class="navbar-lang">УКР</div>
+          <a href="tel:+380732888707" class="navbar-phone">+38 073 288 87 07</a>
+          <div class="navbar-icons">
+            <a href="#" class="navbar-liked">
+              <img src="./img/navbar/heart.svg" alt="heart" />
+            </a>
+            <a href="#" class="navbar-basket">
+              <img src="./img/navbar/cart.svg" alt="cart" />
+            </a>
+            <a href="#" class="navbar-user">
+              <img src="./img/navbar/user.svg" alt="user" />
+            </a>
+            <a href="#" class="navbar-truck">
+              <img src="./img/navbar/truck.svg" alt="truck" />
+            </a>
+          </div>
+        </div>
+        <hr class="navbar-line" />
+        <ul class="navbar-links">
+          <li class="dropdown-handler" data-dropdown="catalog-product">
+            <a href="#" class="navbar-link">
+              <img src="./img/navbar/grid.svg" alt="grid" />
+              каталог товарів
+            </a>
+            <div class="navbar-dropdown">
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Блекаут</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Зарядні станції</a>
+                  <a href="#" class="dropdown-link">Генератори</a>
+                  <a href="#" class="dropdown-link">Павербанки</a>
+                  <a href="#" class="dropdown-link">Ліхтарі</a>
+                  <a href="#" class="dropdown-link">Акумулятори та ДБЖ</a>
+                  <a href="#" class="dropdown-link">Кабелі та подовжувачі</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Автомобільні товари</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Відеореєстратори</a>
+                  <a href="#" class="dropdown-link">Автомагнітоли</a>
+                  <a href="#" class="dropdown-link">GPS - Навігатори</a>
+                  <a href="#" class="dropdown-link">Паркувальні системи</a>
+                  <a href="#" class="dropdown-link">Автокомпресори</a>
+                  <a href="#" class="dropdown-link">Автомобільні камери</a>
+                  <a href="#" class="dropdown-link">Автохімія та догляд</a>
+                  <a href="#" class="dropdown-link">Підставки, зарядні пристрої</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Товари для геймерів</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Ігрові гарнітури</a>
+                  <a href="#" class="dropdown-link">Ігрові миші</a>
+                  <a href="#" class="dropdown-link">Ігрові клавіатури</a>
+                  <a href="#" class="dropdown-link">Коврики</a>
+                  <a href="#" class="dropdown-link">Маніпулятори, джойстики</a>
+                  <a href="#" class="dropdown-link">Приставки</a>
+                  <a href="#" class="dropdown-link">Ноутбуки</a>
+                  <a href="#" class="dropdown-link">Крісла та столи</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Гаджети та аксесуари</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Навушники</a>
+                  <a href="#" class="dropdown-link">Смарт годинники</a>
+                  <a href="#" class="dropdown-link">Фітнес-браслети</a>
+                  <a href="#" class="dropdown-link">Кабелі та адаптери</a>
+                  <a href="#" class="dropdown-link">Чохли для телефонів</a>
+                  <a href="#" class="dropdown-link">Чохли для навушників</a>
+                  <a href="#" class="dropdown-link">Ремінці для годинників</a>
+                  <a href="#" class="dropdown-link">Зарядні пристрої та станції</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Товари для кухні</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Для приготування</a>
+                  <a href="#" class="dropdown-link">Сервірування столу</a>
+                  <a href="#" class="dropdown-link">Кухонні аксесуари</a>
+                  <a href="#" class="dropdown-link">Ножі та приладдя</a>
+                  <a href="#" class="dropdown-link">Зберігання та пакування</a>
+                  <a href="#" class="dropdown-link">Текстиль</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Побутова техніка</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Роботи-пилососи</a>
+                  <a href="#" class="dropdown-link">Акумуляторні пилососси</a>
+                  <a href="#" class="dropdown-link">Кавомашини</a>
+                  <a href="#" class="dropdown-link">Грилі та тостери</a>
+                  <a href="#" class="dropdown-link">Електрочайники</a>
+                  <a href="#" class="dropdown-link">Блендери та міксери</a>
+                  <a href="#" class="dropdown-link">Праски та відпарювачі</a>
+                  <a href="#" class="dropdown-link">Зволожувачі повітря</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Краса і здоров’я</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Зубні щітки</a>
+                  <a href="#" class="dropdown-link">Фени та стайлери</a>
+                  <a href="#" class="dropdown-link">Електробритви та тримери</a>
+                  <a href="#" class="dropdown-link">Епілятори</a>
+                  <a href="#" class="dropdown-link">Косметичні дзеркала</a>
+                  <a href="#" class="dropdown-link">Косметичні прилади</a>
+                  <a href="#" class="dropdown-link">Прилади для манікюру</a>
+                  <a href="#" class="dropdown-link">Підлогові ваги</a>
+                </div>
+              </div>
+
+              <div class="dropdown-list">
+                <h4 class="dropdown-title">Товари для військових</h4>
+                <div class="dropdown-links">
+                  <a href="#" class="dropdown-link">Тактичний одяг</a>
+                  <a href="#" class="dropdown-link">Спорядження</a>
+                  <a href="#" class="dropdown-link">Рації та старлінки</a>
+                  <a href="#" class="dropdown-link">Дрони</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">
+              <img src="./img/navbar/ribbon.svg" alt="ribbon" />
+              Хіти продажу
+            </a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">
+              <img src="./img/navbar/calendar.svg" alt="calendar" />
+              Новинки
+            </a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">
+              <img src="./img/navbar/percentage.svg" alt="percentage" />
+              Акційні пропозиції
+            </a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">
+              <img src="./img/navbar/file.svg" alt="file" />
+              Партнерство
+            </a>
+          </li>
+        </ul>
+        <form class="navbar-search">
+          <img src="./img/navbar/search.svg" alt="search" class="navbar-search__icon" />
+          <input type="text" class="navbar-input" />
+          <button type="submit" class="navbar-btn">пошук</button>
+        </form>
+        <div class="navbar-burger" data-open='{"el":"sidebar","class":"sidebar-group--open"}'>
+          <img src="./img/navbar/burger.svg" alt="burger" />
+        </div>
+      </div>
+    </nav>
+
+    <div class="sidebar-group" data-el="sidebar">
+      <div class="sidebar">
+        <div class="sidebar-head">
+          <a href="#" class="sidebar-logo">
+            <img src="./img/logo.png" alt="logo" />
+          </a>
+          <img
+            src="./img/sidebar/close.svg"
+            alt="close"
+            class="sidebar-close"
+            data-close='{"el":"sidebar","class":"sidebar-group--open"}'
+          />
+        </div>
+        <div class="sidebar-row">
+          <div class="sidebar-auth">
+            <a href="#" class="auth-user">
+              <img src="./img/sidebar/user.svg" alt="user" />
+            </a>
+            <div class="auth-links">
+              <a href="#" class="auth-login" data-open='{"el":"modals","class":"modals-show--login"}'> Вхід </a>
+              <hr class="auth-line" />
+              <a href="#" class="auth-registration" data-open='{"el":"modals","class":"modals-show--registration"}'>
+                Реєстрація
+              </a>
+            </div>
+            <div class="auth-text">
+              <span>Авторизуйтесь для</span>
+              <span>розширення можливостей</span>
+            </div>
+          </div>
+          <div class="sidebar-lang">
+            <a href="#" class="lang-item lang-item--active">УКР</a>
+            <a href="#" class="lang-item">ENG</a>
+          </div>
+        </div>
+        <div class="sidebar-links">
+          <a href="#" class="link-item">
+            <img src="./img/sidebar/catalog.svg" alt="catalog" />
+            <span>Каталог товарів</span>
+          </a>
+          <a href="#" class="link-item">
+            <img src="./img/sidebar/basket.svg" alt="basket" />
+            <span>Кошик</span>
+          </a>
+        </div>
+        <div class="sidebar-list">
+          <div class="list-item">
+            <h5 class="item-title">Інформація</h5>
+            <div class="item-links">
+              <a href="#" class="item-link">про нас</a>
+              <a href="#" class="item-link">Доставка</a>
+              <a href="#" class="item-link">Повернення товару</a>
+              <a href="#" class="item-link">Зворотній звьязок</a>
+              <a href="#" class="item-link">Гарантійні умови</a>
+            </div>
+          </div>
+          <div class="list-item">
+            <h5 class="item-title">Додатково</h5>
+            <div class="item-links">
+              <a href="#" class="item-link">Виробники</a>
+              <a href="#" class="item-link">Подарункові сертифікати</a>
+              <a href="#" class="item-link">Партнерська програма</a>
+              <a href="#" class="item-link">Карта сайту</a>
+              <a href="#" class="item-link">Розсилка</a>
+            </div>
+          </div>
+        </div>
+        <a href="tel:+380732888707" class="sidebar-phone">
+          <span>073 288 87 07</span>
+          Оформити замовлення
+        </a>
+        <ul class="sidebar-working">
+          <li class="working-item">
+            пн-пт
+            <span class="item-blue">9:00 - 20:00</span>
+          </li>
+          <li class="working-item">
+            сб
+            <span class="item-blue">9:00 - 17:00 </span>
+          </li>
+          <li class="working-item">
+            нд
+            <span class="item-blue"> Вихідний</span>
+          </li>
+        </ul>
+        <div class="sidebar-socials">
+          <h5 class="socials-title">Ми в соціальних мережах</h5>
+          <div class="socials-list">
+            <a href="#" class="socials-link">
+              <img src="./img/sidebar/telegram.svg" alt="telegram" />
+            </a>
+            <a href="#" class="socials-link">
+              <img src="./img/sidebar/whatsapp.svg" alt="whatsapp" />
+            </a>
+            <a href="#" class="socials-link">
+              <img src="./img/sidebar/viber.svg" alt="viber" />
+            </a>
+            <a href="#" class="socials-link">
+              <img src="./img/sidebar/x.svg" alt="x" />
+            </a>
+            <a href="#" class="socials-link">
+              <img src="./img/sidebar/instagram.svg" alt="instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar-background" data-close='{"el":"sidebar","class":"sidebar-group--open"}'></div>
+    </div>
+
+    <div class="modals" data-el="modals">
+      <div class="modals-login">
+        <div class="modals-head">
+          <h3 class="head-title">Вхід</h3>
+          <img
+            src="./img/modals/close.svg"
+            alt="close"
+            class="head-close"
+            data-close='{"el":"modals","class":"modals-show--login"}'
+          />
+        </div>
+        <div class="modals-fields">
+          <div class="modals-field">
+            <label for="email" class="field-label">Ел. пошта або телефон</label>
+            <input type="email" id="email" class="field-input" />
+          </div>
+          <div class="modals-field modals-field--password">
+            <label for="password" class="field-label">Пароль</label>
+            <div class="password-wraper">
+              <input type="password" id="password" class="field-input" />
+              <img src="./img/modals/eye.svg" alt="eye" class="password-eye" />
+            </div>
+          </div>
+          <div class="modals-field modals-field--checkbox">
+            <input type="checkbox" id="checkbox" class="field-checkbox" />
+            <label for="checkbox" class="field-label">Запам’ятати мене</label>
+          </div>
+        </div>
+        <div class="modals-btns">
+          <button class="modals-btn modals-btn--blue">Увійти</button>
+          <button class="modals-btn">Зареєструватися</button>
+        </div>
+        <div class="modals-or">
+          <span>або</span>
+        </div>
+        <div class="modals-socials">
+          <h6 class="socials-title">Увійти за допомогою соц. мереж</h6>
+          <div class="modals-btns modals-btns--row">
+            <button class="modals-btn modals-btn--border">
+              <img src="./img/modals/google.svg" alt="google" />
+            </button>
+            <button class="modals-btn modals-btn--border">
+              <img src="./img/modals/facebook.svg" alt="facebook" />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="modals-registration">
+        <div class="modals-head">
+          <h3 class="head-title">Реєстрація</h3>
+          <img
+            src="./img/modals/close.svg"
+            alt="close"
+            class="head-close"
+            data-close='{"el":"modals","class":"modals-show--registration"}'
+          />
+        </div>
+        <div class="modals-row modals-row--bottom">
+          <div class="modals-fields">
+            <div class="modals-field">
+              <label for="name" class="field-label">Ім’я</label>
+              <input type="text" id="name" class="field-input" />
+            </div>
+            <div class="modals-field">
+              <label for="phone" class="field-label">Номер телефону</label>
+              <input type="text" id="phone" class="field-input" />
+            </div>
+            <div class="modals-field modals-field--password">
+              <label for="registration_password" class="field-label">Придумайте пароль</label>
+              <div class="password-wraper">
+                <input type="password" id="registration_password" class="field-input" />
+                <img src="./img/modals/eye.svg" alt="eye" class="password-eye" />
+              </div>
+            </div>
+          </div>
+
+          <div class="modals-fields">
+            <div class="modals-field">
+              <label for="surname" class="field-label">Прізвище</label>
+              <input type="text" id="surname" class="field-input" />
+            </div>
+            <div class="modals-field">
+              <label for="registration_email" class="field-label">Ел. пошта</label>
+              <input type="text" id="registration_email" class="field-input" />
+            </div>
+            <div class="modals-field modals-field--password">
+              <label for="repeat_password" class="field-label">Повторіть пароль</label>
+              <div class="password-wraper">
+                <input type="password" id="repeat_password" class="field-input" />
+                <img src="./img/modals/eye.svg" alt="eye" class="password-eye" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modals-row">
+          <div class="modals-btns">
+            <h6 class="btns-title">Закінчити реєстрацію</h6>
+            <button class="modals-btn modals-btn--blue">Зареєструватися</button>
+            <button class="modals-btn">Увійти</button>
+          </div>
+          <div class="modals-socials modals-socials--border">
+            <h6 class="socials-title">Увійти за допомогою соц. мереж</h6>
+            <div class="modals-btns">
+              <button class="modals-btn modals-btn--border">
+                <img src="./img/modals/google.svg" alt="google" />
+              </button>
+              <button class="modals-btn modals-btn--border">
+                <img src="./img/modals/facebook.svg" alt="facebook" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modals-background" data-close='{"el":"modals","mainClass":"modals"}'></div>
+    </div>
+
+    <div class="fixed" data-fixed>
+      <div class="fixed-scrollup" data-scrollup>
+        <img src="./img/fixed/arrow-up.svg" alt="arrow up" />
+      </div>
+      <div class="fixed-chat">
+        <img src="./img/fixed/chat.svg" alt="chat" />
+      </div>
+    </div>
+
+    <main>
+      <section class="contact">
+        <div class="container">
+          <div class="contact__wrap">
+            <div class="contact__info">
+              <h2 class="title">Контакти</h2>
+              <a href="tel:+380732888707" class="contact-phone">
+                <span>073 288 87 07</span>
+                Оформити замовлення
+              </a>
+              <ul class="contact-working">
+                <li class="working-item">
+                  пн-пт
+                  <span class="item-blue">9:00 - 20:00</span>
+                </li>
+                <li class="working-item">
+                  сб
+                  <span class="item-blue">9:00 - 17:00 </span>
+                </li>
+                <li class="working-item">
+                  нд
+                  <span class="item-blue"> Вихідний</span>
+                </li>
+              </ul>
+              <div class="contact-socials">
+                <h5 class="contact-title">Ми в соціальних мережах</h5>
+                <div class="contact-list">
+                  <a href="#" class="contact-link">
+                    <img src="./img/contact/facebook.svg" alt="facebook" />
+                  </a>
+                  <a href="#" class="contact-link">
+                    <img src="./img/contact/x.svg" alt="x" />
+                  </a>
+                  <a href="#" class="contact-link">
+                    <img src="./img/contact/instagram.svg" alt="instagram" />
+                  </a>
+                  <a href="#" class="contact-link">
+                    <img src="./img/contact/telegram.svg" alt="telegram" />
+                  </a>
+                  <a href="#" class="contact-link">
+                    <img src="./img/contact/viber.svg" alt="viber" />
+                  </a>
+                  <a href="#" class="contact-link">
+                    <img src="./img/contact/whatsapp.svg" alt="whatsapp" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="contact__form">
+              <h2 class="title">Зворотній зв’язок</h2>
+              <form action="/" class="form">
+                <div class="modals-row">
+                  <div class="modals-field">
+                    <label for="name" class="field-label">Ім’я</label>
+                    <input type="text" id="name" class="field-input" />
+                  </div>
+                  <div class="modals-field">
+                    <label for="email" class="field-label">Пошта</label>
+                    <input type="email" id="email" class="field-input" />
+                  </div>
+                </div>
+                <div class="modals-field">
+                  <label for="message" class="field-label">Повідомлення</label>
+                  <textarea name="message" class="field-input"></textarea>
+                </div>
+                <button type="submit" class="modals-btn modals-btn--border">Надіслати</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="prime">
+        <div class="container">
+          <div class="prime-logo">
+            <img src="./img/logo.png" alt="logo" />
+          </div>
+          <p class="prime-description">
+            <span>Prime Market</span> – ваш надійний партнер для успішних оптових та роздрібних закупок. Приєднуйтеся до
+            нас вже сьогодні та отримайте доступ до найкращих умов співпраці та останніх трендів ринку!
+          </p>
+        </div>
+      </section>
+      <section class="subscribe">
+        <div class="container">
+          <div class="subscribe-card">
+            <h1 class="subscribe-title">Підпишіться на нас</h1>
+            <p class="subscribe-text">Підписавшись на нас ви дізнаєтеся про акційні пропозиції та знижки першими</p>
+
+            <form class="subscribe-form">
+              <input type="text" placeholder="email" class="subscribe-input" />
+              <button type="submit" class="subscribe-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="13" height="23" viewBox="0 0 13 23" fill="none">
+                  <path
+                    d="M1 1L12 11.2512L1 21.5024"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container-small">
+        <div class="footer-navigations">
+          <div class="footer-navigation">
+            <h4 class="footer-title">Контакти</h4>
+            <a href="tel:0732888707" class="footer-phone">
+              <span>073 288 87 07</span>
+              Оформити замовлення
+            </a>
+            <ul class="footer-workings">
+              <li class="footer-working">
+                <span>пн-пт </span>
+                <span class="footer-working__blue">9:00 - 20:00</span>
+              </li>
+              <li class="footer-working">
+                <span>сб</span>
+                <span class="footer-working__blue">9:00 - 17:00</span>
+              </li>
+              <li class="footer-working">
+                <span>нд</span>
+                <span class="footer-working__blue">Вихідний</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-navigation">
+            <h4 class="footer-title">Інформація</h4>
+            <div class="footer-links">
+              <a href="#">про нас</a>
+              <a href="#">Доставка</a>
+              <a href="#">Повернення товару</a>
+              <a href="#">Зворотній звьязок</a>
+              <a href="#">Гарантійні умови</a>
+            </div>
+          </div>
+
+          <div class="footer-navigation">
+            <h4 class="footer-title">Додатково</h4>
+            <div class="footer-links">
+              <a href="#">Виробники</a>
+              <a href="#">Подарункові сертифікати</a>
+              <a href="#">Партнерська програма</a>
+              <a href="#">Карта сайту</a>
+              <a href="#">Розсилка</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-socials">
+            <a href="#">
+              <img src="./img/footer/facebook.svg" alt="facebook" />
+            </a>
+            <a href="#">
+              <img src="./img/footer/x.svg" alt="x" />
+            </a>
+            <a href="#">
+              <img src="./img/footer/instagram.svg" alt="instagram" />
+            </a>
+          </div>
+          <div class="footer-pay">
+            <a href="#">
+              <img src="./img/footer/google-pay.svg" alt="google pay" />
+            </a>
+            <a href="#">
+              <img src="./img/footer/apple-pay.svg" alt="apple pay" />
+            </a>
+            <a href="#">
+              <img src="./img/footer/visa.svg" alt="visa" />
+            </a>
+            <a href="#">
+              <img src="./img/footer/mastercard.svg" alt="mastercard" />
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-copy">© Інтернет-магазин Prime Market 2023</div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/jquery.nice-select.min.js"></script>
+    <script type="text/javascript" src="./js/accordion.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>

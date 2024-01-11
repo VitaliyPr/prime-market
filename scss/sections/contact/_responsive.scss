@@ -1,0 +1,80 @@
+@media (max-width: 1600px) {
+  .contact {
+    margin-top: 205px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .contact {
+    margin-top: 195px;
+  }
+}
+
+@media (max-width: 1290px) {
+  .contact {
+    margin-top: 256px;
+  }
+}
+@media (max-width: 1100px) {
+  .contact {
+    &__wrap {
+      flex-direction: column;
+      row-gap: 60px;
+    }
+
+    &__info {
+      &::after {
+        width: 100%;
+        height: 1px;
+        top: unset;
+        bottom: -30px;
+        right: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .contact {
+    margin-top: 301px;
+  }
+}
+
+@media (max-width: 900px) {
+  .contact {
+    margin-top: 100px;
+
+    &__wrap {
+      padding: 30px 50px;
+    }
+
+    &__info {
+      width: 100%;
+
+      .contact-working {
+        max-width: 229px;
+      }
+    }
+  }
+
+  .form {
+    .modals-row {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  }
+}
+
+@media (max-width: 835px) {
+  .contact {
+    margin-top: 85px;
+  }
+}
+@media (max-width: 768px) {
+}
+
+@media (max-width: 435px) {
+  .contact {
+    margin-top: 78px;
+  }
+}
