@@ -21,4 +21,12 @@
   &--dark {
     background: rgba(30, 30, 30, 1);
   }
+
+  &--white {
+    background: #FFF;
+    
+    .title {
+      color: #1E1E1E;
+    }
+  }
 }
